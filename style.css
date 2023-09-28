@@ -42,3 +42,51 @@ button{
     background-color: white;
     border-color: gray;
 }
+
+button:hover{
+    border-radius: 8px;
+    font-size: 25px;
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    border-color: gray;
+    color: #ffffff;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    background-image: url(Contact.png);
+    background-size: cover;
+  
+}
+
+.titulo{
+    font-size: 72px;
+    text-align: center;
+    color: black;
+    font-family: "Heading";
+}
+
+@font-face {
+    font-family: "heading";
+    src: url(heading_now/HeadingNowTrial-23Book.ttf)
+  }
+
+.login {
+    opacity: 0; 
+    transition: opacity 3s ease-in-out; 
+}
+
+.mostrar-login {
+    opacity: 1; 
+}
+
+.register {
+    opacity: 0; 
+    transition: opacity 3s ease-in-out; 
+}
+
+.mostrar-register {
+    opacity: 1; 
+}
+
