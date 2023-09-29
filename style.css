@@ -64,7 +64,7 @@ body{
     font-size: 72px;
     text-align: center;
     color: black;
-    font-family: "Heading";
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @font-face {
